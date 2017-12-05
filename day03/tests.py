@@ -1,5 +1,5 @@
 from django.test import TestCase
-from day03 import day03_1
+from day03 import day03_1, day03_2
 
 
 class Day03Tests(TestCase):
@@ -14,3 +14,4 @@ class Day03Tests(TestCase):
         self.assertEqual(day03_1(1024), 31)
 
         print("Day 03_1 answer", day03_1(self.data1))
+        print("Day 03_2 answer", day03_2(self.data1))
