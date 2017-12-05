@@ -1,0 +1,11 @@
+# Ignore IntelliJ project files
+.idea/
+
+# Ignore enviroment settings
+.env
+
+# Ignore local database
+aoc17.db
+
+# Ignore compiled python files
+*.pyc
